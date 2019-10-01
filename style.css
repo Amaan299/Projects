@@ -1,0 +1,38 @@
+h1{
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+}
+form {
+    display: inline;
+}
+#myForm,#myFormUpdate{
+    margin-top: 50px;
+}
+#inFrom{
+    margin-top: 0;
+    display: inline;
+    align-items: center;
+}
+table, th, td {
+    border: 2px solid black;
+    font-weight:bold;
+    text-emphasis: none;
+    text-align: center;
+}
+table{
+    width: 90%;
+    margin: 50px auto;
+}
+
+#search{
+    margin-right: 90px;
+ }
+#page{
+    display: inline;
+    padding: 5px;
+
+    margin-left: 500px;
+    background-color: orange;
+
+}
