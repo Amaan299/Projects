@@ -1,19 +1,26 @@
 <?php
 include "db.php";
-$page = $_GET['page'];
-echo $page;
+
+
+
 try {
-    if(isset($_POST["delete"])){
+    if(isset($_GET["delete"])){
+        $id = $_GET['delete'];
         $sql = "DELETE FROM MyGuests WHERE id=:id";
         $result = $conn->prepare($sql);
         $result->bindParam(':id', $id, PDO::PARAM_INT);
-        $id = $_REQUEST["id"];
+
         $result->execute();
 
-
+        $page = $_GET['page'];
+        $search_text = $_GET['search_text'];
         unset($result);
-
-        header("Location: http://localhost/AssignmentPhp/showData.php?page=$page");
+        if($search_text!=''){
+        header("Location: http://localhost/AssignmentPhp/waste.php?page=$page&search_text=$search_text");
+    }
+        else{
+            header("Location: http://localhost/AssignmentPhp/waste.php?page=$page");
+        }
     }
 
 }

@@ -1,6 +1,7 @@
 <?php
 include_once './db.php';
 $page=$_GET['page'];
+$search_text=$_GET['search_text'];
 
 ?>
 <html>
@@ -24,7 +25,7 @@ $page=$_GET['page'];
         $result->execute();
         for($i=0;$row=$result->fetch();$i++) {
             ?>
-            <form id="myFormUpdate" action='update_book.php?page=<?php echo $page ?>' class="col-lg-8" method="POST">
+            <form id="myFormUpdate" action='update_book.php?page=<?php echo $page ?>&search_text=<?php echo $search_text ?>' class="col-lg-8" method="POST">
                 <h1>My Book Form</h1>
 
                 <input class="form-control"  value="<?php echo $row->bookname ?>" type="text"

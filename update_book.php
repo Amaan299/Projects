@@ -1,6 +1,7 @@
 <?php
 include "db.php";
 $page = $_GET['page'];
+$search_text=$_GET['search_text'];
 try {
 
     if(isset($_POST["Edit"])){
@@ -18,6 +19,7 @@ try {
             $result->bindParam(":file", $file);
             $result->bindParam(":id", $id);
             $ans = $result->execute();
+            echo $ans . "yeach";
         }
         else {
             $result = $conn->prepare("UPDATE MyGuests SET bookname='$bookname', publisher='$publisher', isbn='$isbn' 
@@ -27,10 +29,11 @@ try {
             $result->bindParam(":isbn", $isbn);
             $result->bindParam(":id", $id);
             $ans = $result->execute();
+
         }
 
         unset($result);
-        header("Location: http://localhost/AssignmentPhp/showData.php?page=$page");
+        header("Location: http://localhost/AssignmentPhp/waste.php?page=$page&search_text=$search_text");
 
     }
 }

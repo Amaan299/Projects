@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6518af1-5c7a-4008-8f60-de37f296da54" name="Default Changelist" comment="" />
+    <list default="true" id="b6518af1-5c7a-4008-8f60-de37f296da54" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/auto_sync.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/add_book.php" beforeDir="false" afterPath="$PROJECT_DIR$/add_book.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delete_book.php" beforeDir="false" afterPath="$PROJECT_DIR$/delete_book.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fetch.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/showData.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/update_book.php" beforeDir="false" afterPath="$PROJECT_DIR$/update_book.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/update_form.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +23,13 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1R8U57lGD8WbTma8wL9sTatWOmb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -23,6 +38,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -67,11 +83,34 @@
       <workItem from="1569579124769" duration="1232000" />
       <workItem from="1569607796849" duration="601000" />
       <workItem from="1569818956592" duration="1228000" />
-      <workItem from="1569904033623" duration="16005000" />
+      <workItem from="1569904033623" duration="22147000" />
+      <workItem from="1569952947983" duration="2752000" />
+      <workItem from="1569978335896" duration="1224000" />
+      <workItem from="1569988710732" duration="10866000" />
+      <workItem from="1570000985448" duration="1432000" />
+      <workItem from="1570003534704" duration="9128000" />
+      <workItem from="1570016881733" duration="2157000" />
+      <workItem from="1570021829356" duration="900000" />
+      <workItem from="1570039424487" duration="597000" />
+      <workItem from="1570077527750" duration="2397000" />
+      <workItem from="1570105332626" duration="1303000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
